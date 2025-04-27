@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    direction: rtl;
+}
+
+.game {
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.character {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#enemies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.enemy {
+    background-color: #f44336;
+    color: white;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
